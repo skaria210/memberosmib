@@ -1,0 +1,2 @@
+# memberosmib
+Member of OSMIB
