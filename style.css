@@ -108,7 +108,7 @@ body {
   position: absolute; right: 30px; bottom: 0; top: -40px; width: 380px;
   display: flex; align-items: flex-end; justify-content: center;
 }
-.hero-art img { max-height: 105%; max-width: 100%; object-fit: contain; }
+.hero-art img { max-height: 105%; max-width: 100%; object-fit: contain; height: auto; }
 
 .dots { position: absolute; left: 60px; bottom: 12px; display: flex; gap: 14px; }
 .dot { width: 34px; height: 4px; border-radius: 4px; background: rgba(255,255,255,.35); }
