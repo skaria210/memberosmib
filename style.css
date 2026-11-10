@@ -87,7 +87,7 @@ body {
     position: absolute;
     top: 16px;
     left: 18px;
-    width: 45px;       /* Kamu bisa ubah ukurannya (misal 35px - 50px) */
+    width: 30px;       /* Kamu bisa ubah ukurannya (misal 35px - 50px) */
     height: auto;      /* Menjaga proporsi gambar biar gak gepeng */
     z-index: 10;       /* Biar logonya berada di atas elemen lain */
 }
