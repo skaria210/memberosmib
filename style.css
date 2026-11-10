@@ -84,9 +84,12 @@ body {
 .s7 { top: 250px; left: 64%; } .s8 { top: 10px; left: 34%; }
 
 .hero-logo {
-  position: absolute; top: 16px; left: 18px;
-  font-size: 11px; letter-spacing: 1px; font-weight: 700;
-  opacity: .9;
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    width: 45px;       /* Kamu bisa ubah ukurannya (misal 35px - 50px) */
+    height: auto;      /* Menjaga proporsi gambar biar gak gepeng */
+    z-index: 10;       /* Biar logonya berada di atas elemen lain */
 }
 .hero-text {
   position: absolute; left: 60px; top: 62px; width: 340px;
@@ -136,8 +139,8 @@ h2 { font-size: 20px; font-weight: 600; margin-bottom: 14px; }
   overflow: hidden; flex-shrink: 0;
   box-shadow: 0 6px 14px rgba(70, 70, 120, .25);
 }
-.art-card--1 { background: linear-gradient(160deg, #3b3d63, #6a6a9a 60%, #2a2a45); }
-.art-card--2 { background: linear-gradient(160deg, #5a6fb5, #3f4d8c 60%, #2f3560); }
+.art-card--1 { background: linear-gradient(160deg, #346841, #95b47d 60%, #638f5d); }
+.art-card--2 { background: linear-gradient(160deg, #e0585f, #edaeb5 60%, #e87881); }
 .art-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .art-card figcaption {
   position: absolute; bottom: 10px; left: 0; right: 0;
@@ -158,11 +161,10 @@ h2 { font-size: 20px; font-weight: 600; margin-bottom: 14px; }
   font-size: 10.5px; color: #fff; font-weight: 500;
   box-shadow: 0 4px 10px rgba(110, 110, 170, .18);
 }
-.r1 { background: #bbca6f; }
-.r2 { background: #e9e29b; }
-.r3 { background: #e8e4c9; }
-.r4 { background: #f2cfbb; }
-.r5 { background: #f1b4af; }
+.r1 { background: #bbca6f; color: #4a502c; font-weight: bold }
+.r2 { background: #e9e29b; color: #a39e6c; font-weight: bold }
+.r3 { background: #f2cfbb; color: #79675d; font-weight: bold }
+.r4 { background: #f1b4af; color: #604846; font-weight: bold }
 .recent li svg { flex-shrink: 0; }
 
 /* Stickers */
