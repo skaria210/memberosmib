@@ -83,14 +83,11 @@ body {
 .s5 { top: 200px; left: 58%; } .s6 { top: 40px; left: 28%; }
 .s7 { top: 250px; left: 64%; } .s8 { top: 10px; left: 34%; }
 
-.hero-logo {
-    position: absolute;
-    top: 16px;
-    left: 18px;
-    width: 30px;       /* Kamu bisa ubah ukurannya (misal 35px - 50px) */
-    height: auto;      /* Menjaga proporsi gambar biar gak gepeng */
-    z-index: 10;       /* Biar logonya berada di atas elemen lain */
+.hero-logo img {
+  height: 40px; 
+  width: auto; 
 }
+
 .hero-text {
   position: absolute; left: 60px; top: 62px; width: 340px;
 }
