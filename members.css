@@ -19,8 +19,6 @@ body {
   font-family: "Helvetica", "Segoe UI", Arial, sans-serif;
   color: var(--text);
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
   /* light green bottom-left, pink bottom-right,
      white at the top turning to dirty white toward the center and bottom */
   background:
@@ -34,6 +32,7 @@ body {
 .page {
   width: 100%;
   max-width: 1100px;
+  margin: 0 auto;
   padding: 28px 40px 60px;
 }
 
@@ -147,3 +146,9 @@ body {
   .member-figure { right: 20px; width: 110px; }
   .member-info { max-width: 55%; }
 }
+
+/* Section headings on this page */
+.section-title { font-size: 28px; font-weight: 800; margin-bottom: 20px; }
+.members .section-title { margin-bottom: 0; }
+.more { text-align: center; padding: 30px 24px 0; }
+.more .section-title { margin-bottom: 0; }
